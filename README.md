@@ -1,6 +1,7 @@
 # SafariBooks
 Download and generate *EPUB* of your favorite books from [*Safari Books Online*](https://www.safaribooksonline.com) library.  
 I'm not responsible for the use of this program, this is only for *personal* and *educational* purpose.  
+Before any usage please read the *O'Reilly*'s [Terms of Service](https://learning.oreilly.com/terms/).  
 
 ## Overview:
   * [Requirements & Setup](#requirements--setup)
@@ -24,7 +25,7 @@ $ pipenv install && pipenv shell
 The program depends of only two **Python 3** modules:
 ```python3
 lxml>=4.1.1
-requests>=2.18.4
+requests>=2.20.0
 ```
   
 ## Usage:
